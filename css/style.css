@@ -1,0 +1,377 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    direction: rtl;
+    font-family: 'Almarai', sans-serif;
+}
+.container {
+    padding: 0 110px;
+}
+/* Header Start */
+header {
+    background-color: #000;
+    color: #cfcfcf;
+    font-size: 0.66em;
+
+}
+header .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.one .content {
+    display: flex;
+    align-items: center;
+}
+.one {
+    width: 30%;
+}
+.one .content h4 {
+    background-color: crimson;
+    padding: 10px  14px;
+    font-size: 1.5em;
+    flex: 1;
+
+}
+.one .content i {
+    padding: 14px 20px;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 1.4em; 
+    position: relative;
+    transition: 0.3s ease;
+}
+.one .content .first span {
+    position: absolute;
+    top: 56px;
+    left: -25px;
+    color: #fff;
+    font-size: 1.4em;
+    width: 104px;
+    padding: 14px;
+    text-align: center;
+    background-color: rgb(0 0 0 / 80%);
+    font-weight: 700;
+    display: none; 
+    z-index: 999;
+}
+.one .content .first i {
+    font-size: 2.4em;
+    color: rgba;
+    color: rgb;
+    position: absolute;
+    top: 22px;
+    left: -2px;
+    color: rgb(0 0 0 / 80%);
+    display: none;
+    z-index: 999;
+}
+.one .content .first:hover {
+    background-color: rgba(6, 34, 192, 0.767);
+}
+.one .content .first:hover span, .one .content .first:hover i {
+    display: block;
+}
+.one .content .second span {
+    position: absolute;
+    top: 56px;
+    left: -25px;
+    color: #fff;
+    font-size: 1.4em;
+    width: 104px;
+    padding: 14px;
+    text-align: center;
+    background-color: rgb(0 0 0 / 80%);
+    font-weight: 700;
+    display: none; 
+    z-index: 999;
+}
+.one .content .second i {
+    font-size: 2.4em;
+    color: rgba;
+    color: rgb;
+    position: absolute;
+    top: 22px;
+    left: -2px;
+    color: rgb(0 0 0 / 80%);
+    display: none;
+    z-index: 999;
+}
+.one .content .second:hover {
+    background-color: rgba(6, 108, 192, 0.767);
+}
+.one .content .second:hover i, .one .content .second:hover span {
+    display: block;
+}
+.one .content .third span {
+    position: absolute;
+    top: 56px;
+    left: -25px;
+    color: #fff;
+    font-size: 1.4em;
+    width: 104px;
+    padding: 14px;
+    text-align: center;
+    background-color: rgb(0 0 0 / 80%);
+    font-weight: 700;
+    display: none; 
+    z-index: 999;
+}
+.one .content .third i {
+    font-size: 2.4em;
+    color: rgba;
+    color: rgb;
+    position: absolute;
+    top: 22px;
+    left: -2px;
+    color: rgb(0 0 0 / 80%);
+    display: none;
+    z-index: 999;
+}
+.one .content .third:hover {
+    background-color: rgba(192, 6, 6, 0.767);
+}
+.one .content .third:hover i, .one .content .third:hover span {
+    display: block;
+}
+.two {
+    flex: 2;
+    margin-right: 140px;
+}
+.two .two-content {
+    display: flex;
+    align-items: center;
+}
+.two .two-content i {
+    font-size: 1.5em;
+    padding: 0 14px;
+}
+.two .two-content p {
+    font-size: 1.2em;
+}
+.two .location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.two .location p {
+    font-weight: 900;
+}
+.three button {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: white;
+}
+.three button i {
+    padding-left: 8px;
+    font-size: 1.3em;
+}
+.three button p {
+    font-size: 1.5em;
+    font-weight: 900;
+}
+/* Header End */
+/* Header 2 Start */
+.header {
+    padding: 20px 0;
+}
+.header .container .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+.header .container .content .image {
+    width: 80%;
+}
+.header .container .content .image img {
+    width: 75%;
+}
+.header .container .content .text {
+    font-size: 1.1em;
+    text-align: center;
+    width: 150px;
+    line-height: 1.5;
+}
+.header .container .content .text p {
+    color: rgb(0 0 0 / 80%);
+}
+/* Header 2 End */
+/* Navbar Start */
+nav {
+    background-color: rgb(0 0 0 / 80%);
+    height: 50px;
+}
+
+nav .nav-content ul {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+nav .nav-content ul li {
+    padding: 16px 20px;
+    transition: 0.3s;
+    cursor: pointer;
+    position: relative;
+}
+nav .nav-content ul .list {
+    background-color: crimson;
+}
+nav .nav-content ul li:hover {
+    background-color: crimson;
+}
+nav .nav-content ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav .nav-content ul li .menu {
+    display: flex;
+    background-color: rgb(0 0 0 / 90%);
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    /* display: none; */
+    right: 0px;
+    position: absolute;
+    display: none;
+}
+nav .nav-content ul li:hover .menu {
+    display: block;
+}
+nav .nav-content ul li .menu li {
+    position: relative;
+    width: 180px;
+    height: 50px;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+}
+nav .nav-content ul li .menu li:hover {
+    background-color: rgb(0 0 0 / 90%)
+}
+nav .nav-content ul li .menu li:hover a, nav .nav-content ul li .menu li:hover .icon {
+    color: white;
+}
+nav .nav-content ul li .menu li a {
+right: 15px;
+color: rgb(77, 74, 74);
+}
+nav .nav-content ul li .menu li i {
+    right: 2px;
+    font-size: 14px;
+    color: rgb(114, 10, 31);
+}
+nav .nav-content ul li .menu li a, nav .nav-content ul li .menu li i {
+    position: absolute;
+}
+nav .nav-content ul li .menu li .icon {
+    color: rgb(77, 74, 74);
+    padding-right: 165px;
+    font-size: 12px;
+}
+
+.lists .menu-right {
+    left: 180px;
+    position: absolute;
+    background-color: rgb(0 0 0 / 90%);
+    top: 0;
+    display: none;
+}
+.lists .menu-right i {
+    right: 2px;
+    font-size: 14px;
+    color: rgb(114, 10, 31);
+}
+.lists .menu-right a {
+    right: 15px;
+    color: rgb(77, 74, 74);
+}
+.lists:hover .menu-right {
+    display: block;
+}
+/* Navbar End */
+/*  News Section Start  */
+.news {
+    margin-top: 6px;
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    border-bottom: 1px solid #ebebeb;
+}
+.news .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news .content h4 {
+    background-color: crimson;
+    color: white;
+    padding: 5px;
+    font-weight: 700;
+}
+.news .content p {
+    font-weight: 500;
+    text-align: center;
+    margin: auto;
+}
+/* News Section End  */
+/* Home Start */
+.home {
+    width: 60%;
+    height: 400px;
+    position: relative;
+}
+.home .content .image img {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+.home .content .main {
+    position: absolute;
+    background-color: rgba(0 0 0 / 50%);
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    border: 1px solid black;
+}
+.main h3 {
+    color: #fff;
+    font-size: 2em;
+    padding: 5px 0;
+    word-spacing: 3px;
+    font-weight: 500;
+}
+.bullets-section {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 70%;
+    bottom: 0;
+    margin-right: 15%;
+}
+
+.bullets h5 {
+    color: white;
+    background-color: #000;
+    width: fit-content;
+    padding: 2px;
+}
+.bullets p {
+    background-color: rgba(0 0 0 / 50%);
+    text-align: center;
+    font-size: 0.7em;
+    word-spacing: 3px;
+    height: 70px;
+    padding:  15px;
+    border: 2px solid black;
+    color: white;
+}
+.bullets .one {
+    background-color: crimson;
+}
+/* Home End */
